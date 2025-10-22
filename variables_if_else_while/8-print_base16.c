@@ -6,12 +6,16 @@
 */
 int main(void)
 {
-	int num;
+	char c;
 
-	for (num = 0; num <= 16; num++)
+	for (c = '0'; c <= '9'; c++)
 	{
-	printf("%x", num);
+	putchar(c);
 	}
-printf("\n");
+	for (c = 'a'; c <= 'f'; c++)
+	{
+	putchar(c);
+	}
+putchar('\n');
 return (0);
 }
