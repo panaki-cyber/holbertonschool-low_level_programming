@@ -10,8 +10,8 @@ int main(void)
 
 	for (num = 0; num <= 16; num++)
 	{
-	putchar("%x", num);
+	printf("%x", num);
 	}
-putchar("\n");
+printf("\n");
 return (0);
 }
