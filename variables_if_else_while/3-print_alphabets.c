@@ -17,9 +17,9 @@ int main(void)
 		if (letter == 'z')
 		{
 			letter = 'A';
-			for (; letter <= 'Z'; lette++)
+			for (; letter <= 'Z'; letter++)
 			{
-				puthcar(letter);
+				putchar(letter);
 			}
 			break;
 		}
