@@ -1,0 +1,29 @@
+#include <ctype.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		letter = tolower(letter);
+		putchar(letter);
+		if (letter == 'z')
+		{
+			letter = 'A';
+			for (; letter <= 'Z'; lette++)
+			{
+				puthcar(letter);
+			}
+			break;
+		}
+	}
+	putchar('\n');
+	return (0);
+}
