@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include <stdio.h>
 
 /**
@@ -8,22 +7,21 @@
  */
 int main(void)
 {
-	int letter;
+	char letter = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (letter <= 'z')
 	{
-		letter = tolower(letter);
 		putchar(letter);
-		if (letter == 'z')
-		{
-			letter = 'A';
-			for (; letter <= 'Z'; letter++)
-			{
-				putchar(letter);
-			}
-			break;
-		}
+		letter++;
 	}
+
+	letter = 'A';
+	while (letter <= 'Z')
+	{
+		putchar(letter);
+		letter++;
+	}
+
 	putchar('\n');
 	return (0);
 }
