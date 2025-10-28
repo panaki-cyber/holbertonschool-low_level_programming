@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * 2-mul.c - function that multiplies two integers.
+ * mul - multiplies two integers
+ * @a: the first integer
+ * @b: the second integer
  *
- * Return: 1 if c is a digit, 0 otherwise
+ * Return: the result of the multiplication
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
-	retun (a * b);
+	return (a * b);
 }
