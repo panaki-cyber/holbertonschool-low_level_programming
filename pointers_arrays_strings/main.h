@@ -21,6 +21,9 @@ char *_strcat(char *dest, char *src);
 
 /* Prototype for main (optional, usually not needed in header) */
 int main(void);
-char _putchar(char c);
+/* Prototype correct pour _putchar */
+int _putchar(char c);
+
+/* Prototype pour _strncat */
 char *_strncat(char *dest, char *src, int n);
 #endif /* MAIN_H */
