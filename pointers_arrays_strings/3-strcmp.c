@@ -16,8 +16,7 @@ int main(void)
 	char *str2 = "Helium";
 	int res;
 
-	int res = _strcmp(str1, str2);
-
+	res = _strcmp(str1, str2);
 	if (res < 0)
 		printf("str1 is less than str2\n");
 	else if (res > 0)
