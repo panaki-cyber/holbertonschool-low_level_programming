@@ -16,14 +16,10 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 
 
-/* Prototype for _strcat function */
 char *_strcat(char *dest, char *src);
-
-/* Prototype for main (optional, usually not needed in header) */
 int main(void);
-/* Prototype correct pour _putchar */
 int _putchar(char c);
-
-/* Prototype pour _strncat */
 char *_strncat(char *dest, char *src, int n);
+int _putchar(char c);
+char *_strncpy(char *dest, char *src, int n);
 #endif /* MAIN_H */
