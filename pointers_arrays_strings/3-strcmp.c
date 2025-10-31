@@ -1,28 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - Entry point to test _strcmp
+ * _strcmp - compares two strings
+ * @s1: first string
+ * @s2: second string
  *
- * Description: Compares two strings using _strcmp and prints
- *              whether the first string is less than, equal to,
- *              or greater than the second string.
- *
- * Return: 0 on success
+ * Return: 0 if equal, <0 if s1 < s2, >0 if s1 > s2
  */
-int main(void)
+int _strcmp(char *s1, char *s2)
 {
-	char *str1 = "Hello";
-	char *str2 = "Helium";
-	int res;
+	int i = 0;
 
-	res = _strcmp(str1, str2);
-	if (res < 0)
-		printf("str1 is less than str2\n");
-	else if (res > 0)
-		printf("str1 is greater than str2\n");
-	else
-		printf("str1 is equal to str2\n");
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+		i++;
+	}
 
-	return (0);
+	return (s1[i] - s2[i]);
 }
