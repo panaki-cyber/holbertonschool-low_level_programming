@@ -24,11 +24,11 @@ int _putchar(char c);
 char *_strncpy(char *dest, char *src, int n);
 
 int _putchar(char c);
-char *9-strcpy(char *dest, char *src);
-char *2-strncpy(char *dest, char *src, int n);
-char *0-strcat(char *dest, char *src);
-char *1-strncat(char *dest, char *src, int n);
-int 3-strcmp(char *s1, char *s2);
+char *_strcpy(char *dest, char *src);
+char *_strncpy(char *dest, char *src, int n);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
 
 int print_last_digit(int n);
 #endif /* MAIN_H */
