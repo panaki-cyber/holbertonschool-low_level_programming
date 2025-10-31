@@ -29,7 +29,7 @@ int main(void)
 	char dest[50];
 
 	_strcpy(dest, src);
-	printf("Copied string: %s\n", dest);
+    printf("Copied string: %s\n", dest);
 
-	return 0;
+    return 0;
 }

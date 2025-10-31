@@ -14,5 +14,12 @@ void puts2(char *str);
 int _putchar(char c);
 void puts_half(char *str);
 void print_array(int *a, int n);
+
+
+/* Prototype for _strcat function */
 char *_strcat(char *dest, char *src);
-#endif
+
+/* Prototype for main (optional, usually not needed in header) */
+int main(void);
+
+#endif /* MAIN_H */
