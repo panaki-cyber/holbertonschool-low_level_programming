@@ -31,4 +31,6 @@ char *_strncat(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 
 int print_last_digit(int n);
+
+char *_memset(char *s, char b, unsigned int n);
 #endif /* MAIN_H */
