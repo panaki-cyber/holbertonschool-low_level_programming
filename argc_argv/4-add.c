@@ -10,14 +10,14 @@
  */
 int is_number(char *s)
 {
-    int i;
+	int i;
 
-    for (i = 0; s[i] != '\0'; i++)
-    {
-        if (!isdigit(s[i]))
-            return (0);
-    }
-    return (1);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (!isdigit(s[i]))
+			return (0);
+	}
+	return (1);
 }
 
 /**
