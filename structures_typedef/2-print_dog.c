@@ -10,7 +10,6 @@
  * If an element is NULL, prints (nil).
  * If d is NULL, prints nothing.
  */
- 
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
